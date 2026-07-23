@@ -1,7 +1,21 @@
 aid: arc-simulations
 name: Arc Simulations
-description: Arc Simulations is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Arc Simulations is a London-based sports technology company, founded in 2022
+  by Henry Smith and Michael Armenakis and part of the Techstars London Spring
+  2024 accelerator cohort. Arc builds ball-tracking and simulation technology
+  for cricket and other ball sports: professional-standard cricket balls carry
+  embedded tracking tags that transmit position data to sensors up to 200 times
+  per second, feeding a real-time simulation and analytics platform. The system
+  predicts ball trajectory post-impact from velocity, angle and spin to deliver
+  millimetre-accurate, autonomous feedback for every shot, with customisable
+  field configurations that mirror live match scenarios. Arc serves players,
+  coaches, scouts, analysts, broadcasters and fans through a hosted application
+  (app.arcsim.io) and a player-facing app (player.arcsim.io) offering
+  ball-by-ball 3D simulations. Arc's technology is built first for cricket but
+  is designed to track nearly any sports ball. No public developer API, SDK, or
+  API documentation is published at this time; this profile captures the
+  company's identity and web/security posture in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/arc-simulations/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +23,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.arcsim.io/icons/ios/180.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Sports
+- Sports Technology
+- Cricket
+- Ball Tracking
+- Simulation
+- Analytics
+- Performance Analytics
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +56,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://arcsim.io/
+  url: https://www.arcsim.io/
+- type: Support
+  url: mailto:support@arcsim.io
+- type: SignUp
+  url: https://app.arcsim.io/
+- type: PrivacyPolicy
+  url: https://www.arcsim.io/privacy-policy
+- type: DomainSecurity
+  url: security/arc-simulations-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
